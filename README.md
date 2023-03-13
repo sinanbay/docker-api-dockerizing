@@ -7,3 +7,8 @@ docker run -p 5000:80 --name docker-dotnet-web-api-container docker-api-image </
  </br> </br>
 http://localhost:5000/WeatherForecast/</br>
 http://localhost:5000/api/Values/</br>
+
+</br></br></br></br>
+
+
+http://localhost:8080/swagger/index.html
