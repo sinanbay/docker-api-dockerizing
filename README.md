@@ -11,11 +11,11 @@ http://localhost:8080/swagger/index.html
 
 
 
-name: Containerımıza vereceğimiz isimdir.
--p: Localimizden containera erişmek için verdiğimiz porttur.
--link: Başka bir container ile haberleşmesini sağlamak için kullanılır.
--e: Environment tanımlamak için kullanılır.
--d: Container’ın deamon modunda yani arka planda çalışmasını sağlar.
+name: Containerımıza vereceğimiz isimdir. <br/>
+-p: Localimizden containera erişmek için verdiğimiz porttur. <br/>
+-link: Başka bir container ile haberleşmesini sağlamak için kullanılır. <br/>
+-e: Environment tanımlamak için kullanılır. <br/>
+-d: Container’ın deamon modunda yani arka planda çalışmasını sağlar. <br/>
 --filter : ile containerlar için arama yapabiliriz. şunları getir falan filan gibi
 docker info => Mevcut işletim sisteminde genel bilgiler veriliyor. cpu ram vb. build versionu. running durumda olan. pause durumda olan. log dosyasının json olduğunu. operating sistemi, işletim sistemini, docker dosyalarının tutulduğu dizinde görülür
 docker container exec -it con_id => ile var olan containerın içerisine bağlanabiliriz.
